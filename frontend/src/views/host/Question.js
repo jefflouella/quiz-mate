@@ -14,6 +14,7 @@ import CheckBox from "../../assets/icons/check_box.svg";
 import EmojiEvents from "../../assets/icons/emoji_events.svg";
 import LookAtBrowser from "../../assets/icons/look_at_browser.svg";
 import PausePresentation from "../../assets/icons/pause_presentation.svg";
+import logo from "../../assets/Botify-logo-600x204.webp";
 
 import "../../assets/icons/material-ui-icon.css";
 import "./Question.css";
@@ -322,7 +323,8 @@ class Question extends Component {
         const className = [answerStatsClass, hasImageClass].join(" ");
         return (
             <CenterBox logo cancel="End quiz" closeRoomSignal renderJoinInfo {...this.props}>
-                <div style={{ marginTop: "-7vh" }} className={className}>
+                <img src={logo} className="question-header-logo" alt="Botify Logo" />
+                <div style={{ marginTop: "-2vh" }} className={className}>
                     {this.renderQuestion(phase)}
                     {this.renderLeaderboard(phase)}
                     {this.renderLookDown(phase)}

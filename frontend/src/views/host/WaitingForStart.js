@@ -8,6 +8,7 @@ import IconButton from "../../components/IconButton";
 import { canCopyToClipboard, getServerBaseUrl, getServerJoinPath, getServerJoinUrl } from "../../utilities";
 
 import PlayCircleOutline from "../../assets/icons/play_circle_outline.svg";
+import logo from "../../assets/Botify-logo-600x204.webp";
 
 import "./WaitingForStart.css";
 
@@ -22,6 +23,7 @@ class WaitingForStart extends Component {
         const copyButtonClass = canCopyToClipboard() ? "qm-join-info-copy-button" : "qm-join-info-copy-button-disabled";
         return (
             <CenterBox logo cancel="Cancel the quiz" closeRoomSignal {...this.props}>
+                <img src={logo} className="waiting-logo" alt="Botify Logo" />
                 <div className="message-box">
                     <Container>
                         <Row>

@@ -54,7 +54,12 @@
 
 .qm-join-url-path {
     opacity: 0;
-    margin-right: -4.8em;
+    margin-right: -0.3em;
+}
+
+.waiting-logo {
+    max-width: 300px;
+    margin-bottom: 20px;
 }
 
 .qm-join-info-copy-button {
