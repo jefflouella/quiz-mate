@@ -1,6 +1,6 @@
 .question-question {
     background-color: #fff;
-    color: #000;
+    color: var(--gray);
     border-radius: 2px;
     padding: 20px;
     margin: 10px;
@@ -27,7 +27,7 @@
 .question-answer {
     position: relative;
     background-color: #fff;
-    color: #000;
+    color: var(--gray);
     border-radius: 2px;
     padding: 10px 2.1em;
     margin: 10px 10px 10px 10px;
@@ -78,14 +78,14 @@
 
 .question-control-buttons .btn {
     margin: 0 0.2em;
-    background-color: #343a40;
-    border-color: #343a40;
+    background-color: var(--gray);
+    border-color: var(--gray);
     color: white;
 }
 
 .question-control-buttons .btn:hover:not(:disabled) {
-    background-color: #23272b;
-    border-color: #1d2124;
+    background-color: #000;
+    border-color: #000;
 }
 
 .question-control-buttons .material-ui-icon {

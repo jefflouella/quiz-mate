@@ -3,11 +3,27 @@
 }
 
 :root {
-    --gray: #343a40;
+    --gray: #282828;
+    --purple: #A83AEE;
+    --white: #FFFFFF;
+    --yellow: #FFAD00;
+    --orange: #F4633A;
 }
 
 textarea.form-control:focus,
 input.form-control:focus {
     box-shadow: none;
     border: 1px solid #c9c9c9;
+}
+
+.btn-warning {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    color: var(--gray);
+}
+
+.btn-warning:hover {
+    background-color: #e69c00;
+    border-color: #d69100;
+    color: var(--gray);
 }

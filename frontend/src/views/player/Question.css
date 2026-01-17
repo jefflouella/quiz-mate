@@ -1,6 +1,6 @@
 .player-question {
     background-color: #fff;
-    color: #000;
+    color: var(--gray);
     border-radius: 2px;
     padding: 20px;
     margin: 12px;
@@ -10,7 +10,7 @@
 .player-answer {
     position: relative;
     background-color: #fff;
-    color: #000;
+    color: var(--gray);
     border-radius: 2px;
     padding: 10px 2.1em;
     margin: 10px 10px 10px 10px;
@@ -19,7 +19,7 @@
 }
 
 .player-answer:hover {
-    background-color: rgb(255, 238, 183);
+    background-color: #EED8FC;
     cursor: pointer;
 }
 

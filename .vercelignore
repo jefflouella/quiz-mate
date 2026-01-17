@@ -1,0 +1,11 @@
+backend/
+bin/
+docs/
+resources/
+Dockerfile
+Makefile
+*.md
+!README.md
+.git/
+.gitignore
+.dockerignore

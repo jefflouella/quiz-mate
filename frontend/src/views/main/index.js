@@ -8,7 +8,7 @@ import EmojiPeople from "../../assets/icons/emoji_people.svg";
 import "../../assets/icons/material-ui-icon.css";
 import Power from "../../assets/icons/power.svg";
 import PresentToAll from "../../assets/icons/present_to_all.svg";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/Botify-logo-600x204.webp";
 import CenterBox from "../../components/CenterBox";
 import IconButton from "../../components/IconButton";
 import { getReconnectPlayer, getReconnectRoom, reconnectModeIsAvailable } from "../../connection/reconnect";

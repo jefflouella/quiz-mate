@@ -1,6 +1,6 @@
 .question-explorer {
     background-color: #fff;
-    color: #000;
+    color: var(--gray);
     height: 100%;
     max-height: calc(100vh - 30px);
     align-items: stretch;

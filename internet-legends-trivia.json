@@ -1,0 +1,155 @@
+{
+    "title": "Internet Legends Trivia",
+    "questions": [
+        {
+            "question": "Before the web went mainstream, Archie helped people search for what?",
+            "correct": 2,
+            "answers": [
+                "Posts inside Usenet newsgroups",
+                "Entries in a human-curated web directory",
+                "Filenames on public FTP archives",
+                "Live chat channels on IRC"
+            ]
+        },
+        {
+            "question": "Veronica and Jughead were search tools for which pre-web system?",
+            "correct": 0,
+            "answers": [
+                "Gopher",
+                "WAIS",
+                "Telnet",
+                "Usenet"
+            ]
+        },
+        {
+            "question": "Which Google algorithm update is most associated with downgrading thin or low-quality content at scale (sometimes dragging down an entire domain, not just a few pages)?",
+            "correct": 0,
+            "answers": [
+                "Panda",
+                "Penguin",
+                "Pigeon",
+                "Caffeine"
+            ]
+        },
+        {
+            "question": "Which early NCSA browser is known for displaying images inline with text (instead of popping them in a separate window)?",
+            "correct": 1,
+            "answers": [
+                "Lynx",
+                "NCSA Mosaic",
+                "WorldWideWeb (Nexus)",
+                "ViolaWWW"
+            ]
+        },
+        {
+            "question": "You want to apply noindex to a PDF (or another non-HTML file) without editing the file itself. What's the cleanest way to do it?",
+            "correct": 2,
+            "answers": [
+                "Add a meta robots tag in the HTML head",
+                "Block it in robots.txt",
+                "Send an X-Robots-Tag: noindex HTTP header",
+                "Add a rel=canonical tag pointing to a different URL"
+            ]
+        },
+        {
+            "question": "Which domain is widely cited as the first .com ever registered?",
+            "correct": 2,
+            "answers": [
+                "apple.com",
+                "microsoft.com",
+                "symbolics.com",
+                "ibm.com"
+            ]
+        },
+        {
+            "question": "Back in the day, what crawler name was most associated with Yahoo in server logs?",
+            "correct": 0,
+            "answers": [
+                "Slurp",
+                "Scooter",
+                "FASTbot",
+                "DuckDuckBot"
+            ]
+        },
+        {
+            "question": "AltaVista's web crawler had a nickname. What was it?",
+            "correct": 3,
+            "answers": [
+                "Slurp",
+                "Googlebot",
+                "DuckDuckBot",
+                "Scooter"
+            ]
+        },
+        {
+            "question": "The research project that became Google was first nicknamed:",
+            "correct": 1,
+            "answers": [
+                "Architext",
+                "BackRub",
+                "Magellan",
+                "Galaxy"
+            ]
+        },
+        {
+            "question": "The Open Directory Project (volunteer-edited web directory) was best known as:",
+            "correct": 2,
+            "answers": [
+                "Dogpile",
+                "HotBot",
+                "DMOZ",
+                "Lycos"
+            ]
+        },
+        {
+            "question": "GoTo.com officially changed its corporate name to what (and became a major search advertising player)?",
+            "correct": 0,
+            "answers": [
+                "Overture Services",
+                "DoubleClick",
+                "LookSmart",
+                "Inktomi"
+            ]
+        },
+        {
+            "question": "The first widely cited web banner ad ran on which site (a digital offshoot of Wired)?",
+            "correct": 3,
+            "answers": [
+                "GeoCities",
+                "AOL",
+                "Netscape.com",
+                "HotWired"
+            ]
+        },
+        {
+            "question": "Which Google algorithm update is most tied to cracking down on manipulative link building and over-optimized anchor text?",
+            "correct": 0,
+            "answers": [
+                "Penguin",
+                "Panda",
+                "Hummingbird",
+                "Possum"
+            ]
+        },
+        {
+            "question": "Which company ran the \"Associates\" program that became a template for affiliate marketing?",
+            "correct": 3,
+            "answers": [
+                "Prodigy",
+                "Yahoo!",
+                "eBay",
+                "Amazon.com"
+            ]
+        },
+        {
+            "question": "Google's Hummingbird Update is best described as:",
+            "correct": 1,
+            "answers": [
+                "A filter mainly focused on unnatural backlinks",
+                "A core algorithm rewrite aimed at better understanding query meaning (semantic / conversational intent)",
+                "A system for speeding up crawling and indexing infrastructure",
+                "A local search update mainly about proximity filtering"
+            ]
+        }
+    ]
+}

@@ -9,8 +9,8 @@
     width: 100%;
     color: #fff;
     font-family: 'Roboto', 'Segoe UI', sans-serif;
-    background: rgb(9, 56, 121) !important;
-    background: linear-gradient(45deg, rgba(9, 56, 121, 1) 13%, rgba(0, 212, 255, 1) 100%) !important;
+    background: #A83AEE !important;
+    background: linear-gradient(135deg, #A83AEE 0%, #282828 100%) !important;
 }
 
 .middle {

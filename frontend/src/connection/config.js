@@ -1,4 +1,6 @@
-export const server = (process.env.NODE_ENV === "development" ? "http://localhost:3001" : window.location.origin);
+// Support custom backend URL for separate deployments (e.g., Railway)
+// Falls back to window.location.origin if not specified (same-domain deployment)
+export const server = process.env.REACT_APP_BACKEND_URL || (process.env.NODE_ENV === "development" ? "http://localhost:3001" : window.location.origin);
 export const client = (process.env.NODE_ENV === "development" ? "http://localhost:3000" : window.location.origin);
 
 export const createNewRoom = "CREATE_NEW_ROOM";
