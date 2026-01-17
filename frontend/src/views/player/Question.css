@@ -18,9 +18,11 @@
     margin-bottom: 4vh;
 }
 
-.player-answer:hover {
-    background-color: #EED8FC;
-    cursor: pointer;
+@media (hover: hover) {
+    .player-answer:hover {
+        background-color: #EED8FC;
+        cursor: pointer;
+    }
 }
 
 .player-answer-letter {
