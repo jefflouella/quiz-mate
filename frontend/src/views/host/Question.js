@@ -324,7 +324,7 @@ class Question extends Component {
         return (
             <CenterBox logo cancel="End quiz" closeRoomSignal renderJoinInfo {...this.props}>
                 <img src={logo} className="question-header-logo" alt="Botify Logo" />
-                <div style={{ marginTop: "-2vh" }} className={className}>
+                <div className={className}>
                     {this.renderQuestion(phase)}
                     {this.renderLeaderboard(phase)}
                     {this.renderLookDown(phase)}
